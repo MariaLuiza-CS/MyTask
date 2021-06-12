@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Task</string>
+    <string name="hint_title">Título</string>
+    <string name="hint_description">Descrição</string>
+    <string name="txt_priority">Prioridade</string>
+    <string name="cb_do_fist">Fazer primeiro</string>
+    <string name="cb_do_later">Fazer depois</string>
+    <string name="cb_delegate">Conferir depois</string>
+    <string name="cb_eliminate">Sem importância</string>
+    <string name="btn_add_task">adiconar</string>
+    <string name="alert_dialog_yes">Sim</string>
+    <string name="alert_dialog_no">Não</string>
+    <string name="title_tool_bar_mytask">Minha tarefa</string>
+    <string name="task_update_sucess">Sua tarefa foi atualizada com sucesso</string>
+    <string name="error_txt_title">Não pode deixar esse campo vazio!!</string>
+    <string name="error_txt_description">Não pode deixar esse campo vazio!!</string>
+    <string name="alert_dialog_sucess">Adicionado com sucesso</string>
+    <string name="alert_dialog_another_task">Você quer adicionar outra tarefa?</string>
+    <string name="task_delete_sucess">Tarefa deletada com sucesso</string>
+    <string name="alert_dialog_delete">Deletar tarefa?</string>
+    <string name="alert_dialog_delete_message">Você gostaria de deletar essa tarefa permanente?</string>
+</resources>

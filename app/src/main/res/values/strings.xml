@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My Task</string>
+    <string name="cd_img_more_options" translatable="false">image icon more options</string>
+    <string name="cd_img_icon_task" translatable="false">image icon task</string>
+    <string name="txt_title_task" translatable="false">title of the task</string>
+    <string name="txt_descriptions" translatable="false">description of the task</string>
+    <string name="cd_fab" translatable="false">fab add new task</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_description">Description</string>
+    <string name="txt_priority">Priority</string>
+    <string name="cb_do_fist">Do fist</string>
+    <string name="cb_do_later">Do later</string>
+    <string name="cb_delegate">Delegate</string>
+    <string name="cb_eliminate">Eliminate</string>
+    <string name="btn_add_task">add task</string>
+    <string name="alert_dialog_yes">yes</string>
+    <string name="alert_dialog_no">no</string>
+    <string name="title_tool_bar_mytask">My Task</string>
+    <string name="task_update_sucess">Your task was successfully update</string>
+    <string name="error_txt_title">You need to write something!!</string>
+    <string name="error_txt_description">You need to write something!!</string>
+    <string name="alert_dialog_sucess">Added successfully</string>
+    <string name="alert_dialog_another_task">Do you want to add another task ?</string>
+    <string name="task_delete_sucess">Task deleted successfully</string>
+    <string name="alert_dialog_delete">Delete Task?</string>
+    <string name="alert_dialog_delete_message">Do you really want to delete this task permanently?</string>
+
+    <string-array name="entries_spinner">
+        <item>Do fist</item>
+        <item>Do later</item>
+        <item>Delegate</item>
+        <item>Eliminate</item>
+    </string-array>
+
+</resources>

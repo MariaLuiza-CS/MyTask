@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    tools:context=".ui.AddTaskActivity">
+
+    <include layout="@layout/toolbar" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_inp_title"
+        style="@style/LoginTextInputLayoutStyle"
+        android:layout_marginTop="30dp"
+        app:errorTextAppearance="@style/ErrorTextAppearance"
+        app:layout_constraintBottom_toTopOf="@id/txt_inp_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:errorIconTint="@color/color_icon_yellow"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/hint_title"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txt_inp_description"
+        style="@style/LoginTextInputLayoutStyle"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@id/txt_priority"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_inp_title">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/hint_description"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txt_priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/txt_priority"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/txt_inp_description"
+        app:layout_constraintTop_toBottomOf="@+id/txt_inp_description" />
+
+    <CheckBox
+        android:id="@+id/checkbox_fist"
+        style="@style/check_box_style"
+        android:layout_marginTop="5dp"
+        android:buttonTint="@color/white"
+        android:text="@string/cb_do_fist"
+        app:layout_constraintStart_toStartOf="@+id/txt_priority"
+        app:layout_constraintTop_toBottomOf="@id/txt_priority"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/checkbox_later"
+        style="@style/check_box_style"
+        android:buttonTint="@color/white"
+        android:text="@string/cb_do_later"
+        app:layout_constraintStart_toStartOf="@+id/txt_priority"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_fist"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/checkbox_delegate"
+        style="@style/check_box_style"
+        android:buttonTint="@color/white"
+        android:text="@string/cb_delegate"
+        app:layout_constraintStart_toStartOf="@+id/txt_priority"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_later"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/checkbox_eliminate"
+        style="@style/check_box_style"
+        android:buttonTint="@color/white"
+        android:text="@string/cb_eliminate"
+        app:layout_constraintStart_toStartOf="@+id/txt_priority"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_delegate"
+        app:useMaterialThemeColors="false" />
+
+    <Button
+        android:id="@+id/btn_add_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/color_icon_yellow"
+        android:padding="12dp"
+        android:text="@string/btn_add_task"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
