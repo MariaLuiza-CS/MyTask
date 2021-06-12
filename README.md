@@ -1,7 +1,11 @@
 # MyTask
 ## Sobre o projeto
 
-
+## Tecnologias utilizadas
+- Kotlin </br>
+- MVVM </br>
+- SQLIte </br>
+- CRUD </br>
 
 ## Layouts
 
