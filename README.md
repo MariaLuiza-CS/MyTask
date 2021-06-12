@@ -1,11 +1,17 @@
 # MyTask
 ## Sobre o projeto
 
+É um aplicativo de tarefas. Nele o usuário pode adicionar, deletar, atualizar e ver informações de uma determinada terefa.
+
+O projeto foi feito usando o padrão arquitetural MVVM, componentes nativos do android e conceitos do Material Designer, além de contar com a utilização do SQLite e a tradução para os idiomas português e inglês.
+
+Nesse layout é possivel ver a utilizacão de CardsViews, ToolBar personalizada, uso do RecyclerView, entre outros recursos. 
+
 ## Tecnologias utilizadas
 - Kotlin </br>
 - MVVM </br>
 - SQLIte </br>
-- CRUD </br>
+- Android </br>
 
 ## Layouts
 
