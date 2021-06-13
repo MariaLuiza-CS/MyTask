@@ -1,4 +1,6 @@
 # MyTask
+[![npm version](https://img.shields.io/npm/l/react)](https://github.com/MariaLuiza-CS/MyTask/blob/master/LICENSE)
+
 ## Sobre o projeto
 
 É um aplicativo de tarefas. Nele o usuário pode adicionar, deletar, atualizar e ver informações de uma determinada terefa.
