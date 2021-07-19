@@ -56,7 +56,7 @@ Nesse layout é possivel ver a utilizacão de CardsViews, ToolBar personalizada,
 Pré-requisitos: Java 11 e android studio
 ```bash 
 # clonar repositório
-URL repositório: 
+URL repositório: https://github.com/MariaLuiza-CS/MyTask.git
 
 # abrir no android studio
 Get from version control > colar url > clone
